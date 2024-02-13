@@ -6,7 +6,7 @@ I created this handful template to use as a boilerplate code to quickly set up a
 
 It provides a basic tool called "semantic-release", installed as a dev-dependency and configured to work with GitHub Actions in an already configured CI/CD pipeline.
 
-This template has been thought to work along with GitHub flow strategy. Every time a feature branch is merged to the main branch, it will trigger semantic-release which will update the changelog, update the version in package.json, and handle the creation of a GitHub release of that version.
+This template has been thought to work along with GitHub flow strategy (you can use semantic-release with other strategies by configuring it differently, though). Every time a feature branch is merged to the main branch, it will trigger semantic-release which will update the changelog, update the version in package.json, and handle the creation of a GitHub release of that version.
 
 ## Installation
 
